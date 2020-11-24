@@ -210,14 +210,14 @@ function App() {
 
       </div>
 
-
+<div className="uploads">
       {user?.displayName ? (
         <ImageUpload username={user.displayName} />
       ) : (
           <h3 className="warning">Abbe Laudu Login kar Comment or Post daalne ke Liye</h3>
         )}
 
-
+</div>
 
     </div>
   );
